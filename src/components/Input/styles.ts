@@ -13,7 +13,7 @@ export const Container =  styled.div`
     align-items: center;
 
     input {
-        border: 1px solid red;
+        border: 0;
         flex: 1;
         background: transparent;
         
@@ -21,13 +21,15 @@ export const Container =  styled.div`
             color: #ABB1A6;
         }
 
-        & + input {
-            margin-bottom: -100px;
-        }
+        
     }  
 
     svg {
         color: #ABB1A6;
         margin-right: 16px;
+    }
+
+    & + div {
+        margin-top: 9px;
     }
 `;
