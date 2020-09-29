@@ -1,8 +1,9 @@
 import React from 'react';
 
-import {FiUser, FiLock} from 'react-icons/fi';
+import { FiUser, FiLock } from 'react-icons/fi';
 
-import {Form} from '@unform/web';
+import { Form } from '@unform/web';
+import * as Yup from 'yup'; 
 
 import Input from '../../components/Input';
 import Button from '../../components/Button';
