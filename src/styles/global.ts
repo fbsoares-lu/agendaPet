@@ -9,8 +9,8 @@ export default createGlobalStyle `
     };
 
     body {
-        background: #E1F6D0;
-        color: #74B93E;
+        background: #E5D0F6;
+        color: #8B4513;
     };
 
     body, input, button {
